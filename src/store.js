@@ -9,8 +9,8 @@ const state = {
     {
       offset: 1,
       factor: 1.75,
-      header: "District 4",
-      image: "/photo-1515036551567-bf1198cccc35.jpeg",
+      header: "Pop-Cat",
+      image: "/cat.jpg",
       aspect: 1.51,
       text: "Two thousand pharmacologists and bio-chemists were subsidized. Six years later it was being produced commercially."
     },
