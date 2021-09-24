@@ -58,16 +58,16 @@ function Content() {
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
           <Text left size={w * 0.15} position={[-w / 3.2, 0.5, -1]} color="#d40749">
-            MOKSHA
+            Portfolio
           </Text>
         </Block>
         <Block factor={1.0}>
           <Html className="bottom-left" style={{ color: "white" }} position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-            It was the year 2076.{mobile ? <br /> : " "}The substance had arrived.
+            Portfolio{mobile ? <br /> : " "} Pongprom Srimantha 09/24/2021
           </Html>
         </Block>
       </Block>
-      <Block factor={1.2} offset={5.7}>
+      <Block factor={1.2} offset={4}>
         <MultilineText top left size={w * 0.15} lineHeight={w / 5} position={[-w / 3.5, 0, -1]} color="#2fe8c3" text={"four\nzero\nzero"} />
       </Block>
       {state.paragraphs.map((props, index) => (
@@ -78,9 +78,9 @@ function Content() {
           <Plane args={[50, height, 32, 32]} shift={-4} color={color} rotation={[0, 0, Math.PI / 8]} position={[0, 0, -10]} />
         </Block>
       ))}
-      <Block factor={1.25} offset={8}>
+      <Block factor={1.25} offset={5}>
         <Html style={{ color: "white" }} className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-          Culture is not your friend.
+         ขอบคุณที่รับชมครับ.
         </Html>
       </Block>
     </>
